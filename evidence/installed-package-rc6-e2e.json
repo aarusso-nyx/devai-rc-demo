@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "1.0.0",
+  "observedAt": "2026-08-12T01:53:28Z",
+  "source": {
+    "repository": "aarusso-nyx/devai",
+    "tag": "v1.0.0-rc.6",
+    "commit": "82bae11a0b01c15c5ddd15e5589ccdd0797f905d",
+    "tree": "d2d92eae1f27890faba82a1b22d96985f5b14c0f",
+    "workflowRun": 31554800131,
+    "workflowConclusion": "success",
+    "publicationJobs": "skipped"
+  },
+  "package": {
+    "name": "@aarusso-nyx/devai",
+    "version": "1.0.0-rc.6",
+    "sha256": "dab17b6c6cce6450a24d6daaa0c37adc30bb79bc3da9a0467698ef62c2f07959",
+    "install": "npm install --no-save <rehearsal-tarball>",
+    "auditVulnerabilities": 0
+  },
+  "results": {
+    "actionCatalogCount": 41,
+    "bundledConstitutionRebinding": "pass",
+    "bundledOperationalLawRebinding": "pass",
+    "bundledSubprocessPolicyRebinding": "pass",
+    "authorityPolicyRebinding": {
+      "verdict": "pass",
+      "sha256": "61bc64fce1bcbdcfaace184a330baaa40684d96193e628d1985e43c5c29512d2"
+    },
+    "persistedProfile": "tier1",
+    "persistedDevaiVersion": "1.0.0-rc.6",
+    "ownerApply": "pass",
+    "architectApply": "pass",
+    "harnessApply": "pass",
+    "harnessRepeat": {
+      "verdict": "pass",
+      "coreEntriesSkippedUnchanged": 14
+    },
+    "codexRecipes": 7,
+    "claudeRecipes": 7,
+    "packagedForbiddenActionsCheck": "pass",
+    "missingTaskDescriptor": {
+      "exit": 5,
+      "code": "CHECK_TASK_DESCRIPTOR_MISSING"
+    },
+    "projectLocalPrePushHook": "pass",
+    "pushThroughInstalledHook": "pending-commit"
+  },
+  "postAdoptionDoctor": {
+    "exit": 1,
+    "verdict": "review",
+    "transport": "valid-success-envelope"
+  },
+  "freshRepositoryCoverage": {
+    "workflowRun": 31554800131,
+    "installedBinarySmoke": "pass",
+    "actualPushThroughInstalledHook": "pass"
+  },
+  "verdict": "pass-pending-public-push"
+}
