@@ -6,9 +6,9 @@ rc.5; the same repository was rebound for rc.6 and has now been upgraded to the 
 candidate on merged `main`.
 
 - Source tag: `v1.0.0` (not created or pushed)
-- Source commit: `b024f311f45201b2b69130d80a00ba16bf6057af`
-- Source tree: `b32706bd29c74cff11141fe5183e3121b68e4feb`
-- Exact-main ledger run: `31569663065` (awaiting independent environment approval)
+- Source commit: `e6d92f41a0e43125c5d336145cdcfab92494a308`
+- Source tree: `5b1315361edeadc106bd551f8e488060311f0e8e`
+- Exact-main ledger run: `31570624288` (awaiting independent environment approval)
 - Package SHA-256: `b1662a1ca0b25e49a41333b057874221b936108c8d89fbb48740e35f3a1f9410`
 
 The package was installed with `npm install --no-save <tarball>`. The committed `evidence/`
@@ -31,5 +31,7 @@ idempotent harness reapplication. Post-adoption doctor remains a valid structure
 deliberately empty fixture does not invent adopter-owned product, law, or documentation content,
 and it also reports the fixture's existing host-authority declaration mismatch.
 
-The exact stable tarball independently passed the installed-binary smoke from an empty Git
-repository. Remote tag-workflow rehearsal and every publishing/deployment job remain unrun.
+The unchanged exact stable tarball was reinstalled and the bind/apply/check/doctor walkthrough was
+re-run against the final merged source identity above. It also independently passed the
+installed-binary smoke from an empty Git repository. Remote tag-workflow rehearsal and every
+publishing/deployment job remain unrun.
