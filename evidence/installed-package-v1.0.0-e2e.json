@@ -1,20 +1,20 @@
 {
   "schemaVersion": "1.0.0",
-  "observedAt": "2026-08-12T05:22:20Z",
+  "observedAt": "2026-08-12T06:11:44Z",
   "source": {
     "repository": "aarusso-nyx/devai",
     "tag": "v1.0.0",
-    "tagStatus": "signed-local-rehearsal-only-not-pushed",
-    "commit": "6e9f0cfacf93b085b3a51c6383f0bb0cf73ba29e",
-    "tree": "a7974b8b8ffa6c5e0c8d0eb46a11595b0f12c90b",
-    "exactMainLedgerRun": 31566649563,
+    "tagStatus": "not-created-or-pushed",
+    "commit": "a9a16befc26a62f70fdce3c6acaf25086cd9735c",
+    "tree": "e2f7de0aaa88f460c4efaa44b16077d3f1b176a0",
+    "exactMainLedgerRun": 31568790373,
     "tagWorkflowRun": null,
     "publicationJobs": "not-run"
   },
   "package": {
     "name": "@aarusso-nyx/devai",
     "version": "1.0.0",
-    "sha256": "6634e5151873abb0e617fa303c9a4476f856b5754b02a7cb6bbc97911334c0f3",
+    "sha256": "b1662a1ca0b25e49a41333b057874221b936108c8d89fbb48740e35f3a1f9410",
     "install": "npm install --no-save <locally-assembled-exact-main-tarball>",
     "auditVulnerabilities": 0
   },
@@ -25,7 +25,7 @@
     "bundledSubprocessPolicyRebinding": "pass",
     "authorityPolicyRebinding": {
       "verdict": "pass",
-      "sha256": "1d68c46c9029cb779bf057a58e835a0cb1b569af638e4a6f1ee0e381ee897154"
+      "sha256": "b7d0d6f835ae4a0fb80b5ab80013c8a735f6e6f61819c555b08eda705f0c20e8"
     },
     "persistedProfile": "tier1",
     "persistedDevaiVersion": "1.0.0",
@@ -46,7 +46,7 @@
     "projectLocalPrePushHook": "pass",
     "pushThroughInstalledHook": {
       "verdict": "pass",
-      "remoteCommit": "aa07819ad10851aa9a5f92a9a9796f4221b69189"
+      "remoteCommit": "0e421967c49c4848fe0a406f2e4e2eef8d15ff20"
     }
   },
   "postAdoptionDoctor": {
