@@ -44,7 +44,10 @@
       "code": "CHECK_TASK_DESCRIPTOR_MISSING"
     },
     "projectLocalPrePushHook": "pass",
-    "pushThroughInstalledHook": "pending-commit"
+    "pushThroughInstalledHook": {
+      "verdict": "pass",
+      "remoteCommit": "aa07819ad10851aa9a5f92a9a9796f4221b69189"
+    }
   },
   "postAdoptionDoctor": {
     "exit": 1,
@@ -59,5 +62,5 @@
     "sbomComponents": 66,
     "privateWorkspacePackages": 0
   },
-  "verdict": "pass-pending-public-push"
+  "verdict": "pass"
 }
