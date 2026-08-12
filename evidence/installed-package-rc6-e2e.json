@@ -43,7 +43,10 @@
       "code": "CHECK_TASK_DESCRIPTOR_MISSING"
     },
     "projectLocalPrePushHook": "pass",
-    "pushThroughInstalledHook": "pending-commit"
+    "pushThroughInstalledHook": {
+      "verdict": "pass",
+      "remoteCommit": "078986eb4da02e9f43e02729f9dec224d3ad4669"
+    }
   },
   "postAdoptionDoctor": {
     "exit": 1,
@@ -55,5 +58,5 @@
     "installedBinarySmoke": "pass",
     "actualPushThroughInstalledHook": "pass"
   },
-  "verdict": "pass-pending-public-push"
+  "verdict": "pass"
 }
