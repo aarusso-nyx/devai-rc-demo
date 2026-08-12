@@ -1,0 +1,66 @@
+{
+  "schemaVersion": "1.0.0",
+  "observedAt": "2026-08-12T05:22:20Z",
+  "source": {
+    "repository": "aarusso-nyx/devai",
+    "tag": "v1.0.0",
+    "tagStatus": "signed-local-rehearsal-only-not-pushed",
+    "commit": "6e9f0cfacf93b085b3a51c6383f0bb0cf73ba29e",
+    "tree": "a7974b8b8ffa6c5e0c8d0eb46a11595b0f12c90b",
+    "exactMainLedgerRun": 31566649563,
+    "tagWorkflowRun": null,
+    "publicationJobs": "not-run"
+  },
+  "package": {
+    "name": "@aarusso-nyx/devai",
+    "version": "1.0.0",
+    "sha256": "6634e5151873abb0e617fa303c9a4476f856b5754b02a7cb6bbc97911334c0f3",
+    "install": "npm install --no-save <locally-assembled-exact-main-tarball>",
+    "auditVulnerabilities": 0
+  },
+  "results": {
+    "actionCatalogCount": 41,
+    "bundledConstitutionRebinding": "pass",
+    "bundledOperationalLawRebinding": "pass",
+    "bundledSubprocessPolicyRebinding": "pass",
+    "authorityPolicyRebinding": {
+      "verdict": "pass",
+      "sha256": "1d68c46c9029cb779bf057a58e835a0cb1b569af638e4a6f1ee0e381ee897154"
+    },
+    "persistedProfile": "tier1",
+    "persistedDevaiVersion": "1.0.0",
+    "ownerApply": "pass",
+    "architectApply": "pass",
+    "harnessApply": "pass",
+    "harnessRepeat": {
+      "verdict": "pass",
+      "coreEntriesSkippedUnchanged": 14
+    },
+    "codexRecipes": 7,
+    "claudeRecipes": 7,
+    "packagedForbiddenActionsCheck": "pass",
+    "missingTaskDescriptor": {
+      "exit": 5,
+      "code": "CHECK_TASK_DESCRIPTOR_MISSING"
+    },
+    "projectLocalPrePushHook": "pass",
+    "pushThroughInstalledHook": {
+      "verdict": "pass",
+      "remoteCommit": "aa07819ad10851aa9a5f92a9a9796f4221b69189"
+    }
+  },
+  "postAdoptionDoctor": {
+    "exit": 1,
+    "verdict": "review",
+    "transport": "valid-success-envelope",
+    "versionMatch": "pass",
+    "authorityEnforcement": "review-existing-fixture-declaration-mismatch"
+  },
+  "freshRepositoryCoverage": {
+    "installedBinarySmoke": "pass",
+    "packageReproductions": 2,
+    "sbomComponents": 66,
+    "privateWorkspacePackages": 0
+  },
+  "verdict": "pass"
+}

@@ -2,31 +2,34 @@
 
 This repository records installed-package adopter walkthroughs against exact package tarballs
 assembled by DEVAI's non-publishing release rehearsals. The original fresh-repository proof used
-rc.5; the same repository was then rebound and exercised end to end with the final rc.6 candidate.
+rc.5; the same repository was rebound for rc.6 and has now been upgraded to the exact stable 1.0
+candidate on merged `main`.
 
-- Source tag: `v1.0.0-rc.6`
-- Source commit: `82bae11a0b01c15c5ddd15e5589ccdd0797f905d`
-- Source tree: `d2d92eae1f27890faba82a1b22d96985f5b14c0f`
-- Workflow run: `31554800131`
-- Package SHA-256: `dab17b6c6cce6450a24d6daaa0c37adc30bb79bc3da9a0467698ef62c2f07959`
+- Source tag: `v1.0.0` (signed local rehearsal only; not pushed)
+- Source commit: `6e9f0cfacf93b085b3a51c6383f0bb0cf73ba29e`
+- Source tree: `a7974b8b8ffa6c5e0c8d0eb46a11595b0f12c90b`
+- Exact-main ledger run: `31566649563`
+- Package SHA-256: `6634e5151873abb0e617fa303c9a4476f856b5754b02a7cb6bbc97911334c0f3`
 
 The package was installed with `npm install --no-save <tarball>`. The committed `evidence/`
-directory contains structured results for both the fresh rc.5 adoption and the rc.6 rebind and
-upgrade. Generated DEVAI bindings and both Codex and Claude recipe installations are committed as
-observable adopter state.
+directory contains structured results for the fresh rc.5 adoption, the rc.6 rebind, and the stable
+1.0 prepublication upgrade. Generated DEVAI bindings and both Codex and Claude recipe installations
+are committed as observable adopter state.
 
-The package is not yet published. Reproduction currently requires the authenticated rehearsal
-artifact from the linked DEVAI workflow run.
+The stable package is not yet published. Reproduction currently requires the locally assembled
+tarball whose digest is recorded in `evidence/installed-package-v1.0.0-e2e.json`. The remote
+non-publishing tag workflow remains pending until the signed `v1.0.0` tag is authorized and pushed.
 
 ## Result
 
 The combined walkthrough passed unbound discovery, structured doctor review, all binding and apply
 segments, Codex and Claude recipe installation and repeat idempotency, packaged-policy checks, the
 missing adopter-DAG diagnostic, project-local hook installation, conflict preflight rollback, the
-actual pre-push hook, and the documented removal procedure. The rc.6 pass also proves installed
+actual pre-push hook, and the documented removal procedure. The stable pass also proves installed
 package replacement, bundled-contract rebinding, exact version persistence, hook replacement, and
-idempotent harness reapplication. Post-adoption doctor remains `review` because this deliberately
-empty fixture does not invent adopter-owned product, law, or documentation content.
+idempotent harness reapplication. Post-adoption doctor remains a valid structured `review`: this
+deliberately empty fixture does not invent adopter-owned product, law, or documentation content,
+and it also reports the fixture's existing host-authority declaration mismatch.
 
-The release workflow independently runs its installed-binary smoke from an empty Git repository;
-run `31554800131` passed that smoke and skipped every publishing/deployment job.
+The exact stable tarball independently passed the installed-binary smoke from an empty Git
+repository. Remote tag-workflow rehearsal and every publishing/deployment job remain unrun.
