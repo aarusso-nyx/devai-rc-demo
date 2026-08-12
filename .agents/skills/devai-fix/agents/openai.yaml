@@ -1,0 +1,5 @@
+interface:
+  display_name: "devai-fix"
+  short_description: "Repair one failing engineering concern with explicit file bounds and focused verification."
+policy:
+  allow_implicit_invocation: true

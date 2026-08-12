@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "1",
+  "recipe": "devai-round",
+  "operations": [
+    {
+      "id": "round.assess",
+      "description": "Assess one explicit local round without mutation.",
+      "effect": "read",
+      "execution": "host-command",
+      "argv": [
+        "devai",
+        "round",
+        "assess"
+      ]
+    },
+    {
+      "id": "round.plan.preview",
+      "description": "Record an explicit local preview plan in runtime state.",
+      "effect": "runtime-write",
+      "execution": "host-materializer"
+    },
+    {
+      "id": "round.run.preview",
+      "description": "Record results of separately authorized local child operations.",
+      "effect": "runtime-write",
+      "execution": "host-materializer"
+    },
+    {
+      "id": "round.close.preview",
+      "description": "Record a close summary after supplied local completion verification.",
+      "effect": "runtime-write",
+      "execution": "host-materializer"
+    }
+  ]
+}

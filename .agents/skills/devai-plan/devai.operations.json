@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "1",
+  "recipe": "devai-plan",
+  "operations": [
+    {
+      "id": "check.inspect",
+      "description": "Triage current evidence without mutation.",
+      "effect": "read",
+      "execution": "host-command",
+      "argv": [
+        "devai",
+        "check",
+        "--suite",
+        "quick"
+      ]
+    },
+    {
+      "id": "sense.inventory",
+      "description": "Inspect one deterministic repository inventory slice.",
+      "effect": "read",
+      "execution": "host-command",
+      "argv": [
+        "devai",
+        "sense",
+        "inventory"
+      ]
+    },
+    {
+      "id": "init.plan",
+      "description": "Build the exact non-authorizing initialization plan.",
+      "effect": "read",
+      "execution": "host-command",
+      "argv": [
+        "devai",
+        "init",
+        "plan"
+      ]
+    }
+  ]
+}

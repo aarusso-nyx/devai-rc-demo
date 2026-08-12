@@ -1,0 +1,48 @@
+{
+  "schemaVersion": "1",
+  "recipe": "devai-scaffold",
+  "operations": [
+    {
+      "id": "scaffold.db",
+      "description": "Render database scaffold outputs.",
+      "effect": "local-write",
+      "execution": "host-scaffolder"
+    },
+    {
+      "id": "scaffold.api",
+      "description": "Render API scaffold outputs.",
+      "effect": "local-write",
+      "execution": "host-scaffolder"
+    },
+    {
+      "id": "scaffold.ui",
+      "description": "Render UI scaffold outputs.",
+      "effect": "local-write",
+      "execution": "host-scaffolder"
+    },
+    {
+      "id": "scaffold.tests",
+      "description": "Render test scaffold outputs.",
+      "effect": "local-write",
+      "execution": "host-scaffolder"
+    },
+    {
+      "id": "scaffold.docs",
+      "description": "Render documentation scaffold outputs.",
+      "effect": "local-write",
+      "execution": "host-scaffolder"
+    },
+    {
+      "id": "scaffold.ci",
+      "description": "Render module CI scaffold outputs.",
+      "effect": "local-write",
+      "execution": "host-scaffolder"
+    },
+    {
+      "id": "scaffold.tests-from-docs",
+      "description": "Materialize reviewed test candidates derived from explicit documentation.",
+      "effect": "local-write",
+      "execution": "host-materializer"
+    }
+  ]
+}

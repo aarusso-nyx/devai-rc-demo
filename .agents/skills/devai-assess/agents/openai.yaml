@@ -1,0 +1,5 @@
+interface:
+  display_name: "devai-assess"
+  short_description: "Assess repository state and explain current evidence without changing product files."
+policy:
+  allow_implicit_invocation: true

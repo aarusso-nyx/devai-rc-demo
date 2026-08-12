@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "1",
+  "recipe": "devai-verify",
+  "operations": [
+    {
+      "id": "check.inspect",
+      "description": "Triage current evidence without mutation.",
+      "effect": "read",
+      "execution": "host-command",
+      "argv": [
+        "devai",
+        "check",
+        "--suite",
+        "quick"
+      ]
+    },
+    {
+      "id": "evidence.verify",
+      "description": "Verify existing local evidence without mutation.",
+      "effect": "read",
+      "execution": "host-command",
+      "argv": [
+        "devai",
+        "evidence",
+        "verify"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+interface:
+  display_name: "devai-verify"
+  short_description: "Review code, documentation, or evidence without modifying product files."
+policy:
+  allow_implicit_invocation: true

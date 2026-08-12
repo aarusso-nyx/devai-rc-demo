@@ -1,0 +1,5 @@
+interface:
+  display_name: "devai-round"
+  short_description: "Preview a local round workflow with explicit phases and runtime-state-only coordination."
+policy:
+  allow_implicit_invocation: false

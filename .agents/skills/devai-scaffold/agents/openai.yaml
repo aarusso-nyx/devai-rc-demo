@@ -1,0 +1,5 @@
+interface:
+  display_name: "devai-scaffold"
+  short_description: "Generate one bounded artifact family from explicit structured inputs and reviewable templates."
+policy:
+  allow_implicit_invocation: true

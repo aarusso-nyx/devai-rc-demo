@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "1",
+  "recipe": "devai-fix",
+  "operations": [
+    {
+      "id": "check.lint",
+      "description": "Run the configured lint repair against explicit files.",
+      "effect": "local-write",
+      "execution": "host-command",
+      "argv": [
+        "pnpm",
+        "lint",
+        "--fix"
+      ]
+    },
+    {
+      "id": "check.build",
+      "description": "Repair a build failure within explicit files.",
+      "effect": "local-write",
+      "execution": "host-command",
+      "argv": [
+        "pnpm",
+        "build"
+      ]
+    },
+    {
+      "id": "check.test",
+      "description": "Repair a focused failing test within explicit files.",
+      "effect": "local-write",
+      "execution": "host-command",
+      "argv": [
+        "pnpm",
+        "test"
+      ]
+    },
+    {
+      "id": "check.typecheck",
+      "description": "Repair type errors within explicit files.",
+      "effect": "local-write",
+      "execution": "host-command",
+      "argv": [
+        "pnpm",
+        "typecheck"
+      ]
+    },
+    {
+      "id": "check.coverage",
+      "description": "Add focused tests for an observed coverage gap.",
+      "effect": "local-write",
+      "execution": "host-command",
+      "argv": [
+        "pnpm",
+        "test:coverage"
+      ]
+    }
+  ]
+}

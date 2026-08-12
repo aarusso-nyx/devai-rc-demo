@@ -1,0 +1,17 @@
+{
+  "schemaVersion": "1",
+  "recipe": "devai-docs",
+  "operations": [
+    {
+      "id": "sense.inventory",
+      "description": "Inspect one deterministic repository inventory slice.",
+      "effect": "read",
+      "execution": "host-command",
+      "argv": [
+        "devai",
+        "sense",
+        "inventory"
+      ]
+    }
+  ]
+}

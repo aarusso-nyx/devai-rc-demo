@@ -1,0 +1,54 @@
+{
+  "schemaVersion": "1.0.0",
+  "observedAt": "2026-08-12T01:40:00Z",
+  "source": {
+    "repository": "aarusso-nyx/devai",
+    "tag": "v1.0.0-rc.5",
+    "commit": "12406084a512a15eb6154d834038e628a51ff967",
+    "workflowRun": 31554217534
+  },
+  "package": {
+    "name": "@aarusso-nyx/devai",
+    "version": "1.0.0-rc.5",
+    "sha256": "c311d4a2e2ed111e0aea6d1f0755c0735035f4986ad39c07840c6ad0e64e21b1",
+    "install": "npm install --no-save <rehearsal-tarball>",
+    "auditVulnerabilities": 0
+  },
+  "results": {
+    "unboundCatalogActions": 41,
+    "unboundTier1PlanCreates": 13,
+    "unboundDoctor": { "exit": 1, "verdict": "review" },
+    "bundledConstitutionBinding": "pass",
+    "bundledOperationalLawBinding": "pass",
+    "bundledSubprocessPolicyBinding": "pass",
+    "authorityPolicyBinding": "pass",
+    "ownerApply": "pass",
+    "architectApply": "pass",
+    "harnessApply": "pass",
+    "recipeFilesWrittenFirstApply": 49,
+    "recipeFilesUnchangedSecondApply": 49,
+    "codexRecipes": 7,
+    "claudeRecipes": 7,
+    "packagedForbiddenActionsCheck": "pass",
+    "missingTaskDescriptor": {
+      "exit": 5,
+      "code": "CHECK_TASK_DESCRIPTOR_MISSING"
+    },
+    "projectLocalPrePushHook": "pass",
+    "firstPushThroughInstalledHook": "pass",
+    "conflictPreflight": {
+      "exit": 6,
+      "conflictPreserved": true,
+      "partialCoreWrites": 0
+    },
+    "documentedRemoval": {
+      "generatedStateAbsent": true,
+      "unboundCatalogActionsAfterRemoval": 41
+    }
+  },
+  "postAdoptionDoctor": {
+    "verdict": "review",
+    "interpretation": "Expected application-specific F1 paths and documentation declarations remain adopter-owned; binding, package-version, constitution, proof-chain, and host-bridge checks are structured and operational."
+  },
+  "verdict": "pass"
+}

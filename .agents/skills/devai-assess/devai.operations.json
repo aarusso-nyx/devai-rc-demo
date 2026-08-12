@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "1",
+  "recipe": "devai-assess",
+  "operations": [
+    {
+      "id": "check.inspect",
+      "description": "Triage current evidence without mutation.",
+      "effect": "read",
+      "execution": "host-command",
+      "argv": [
+        "devai",
+        "check",
+        "--suite",
+        "quick"
+      ]
+    },
+    {
+      "id": "sense.inventory",
+      "description": "Inspect one deterministic repository inventory slice.",
+      "effect": "read",
+      "execution": "host-command",
+      "argv": [
+        "devai",
+        "sense",
+        "inventory"
+      ]
+    },
+    {
+      "id": "round.assess",
+      "description": "Assess one explicit local round without mutation.",
+      "effect": "read",
+      "execution": "host-command",
+      "argv": [
+        "devai",
+        "round",
+        "assess"
+      ]
+    }
+  ]
+}

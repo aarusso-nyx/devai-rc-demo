@@ -1,0 +1,5 @@
+interface:
+  display_name: "devai-docs"
+  short_description: "Create one evidence-grounded developer document at the selected variant's exact output path."
+policy:
+  allow_implicit_invocation: true

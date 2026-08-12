@@ -1,0 +1,5 @@
+interface:
+  display_name: "devai-plan"
+  short_description: "Turn repository evidence and user intent into a bounded implementation plan without mutating the repository."
+policy:
+  allow_implicit_invocation: true
