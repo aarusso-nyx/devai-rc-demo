@@ -1,13 +1,14 @@
 {
   "schemaVersion": "1.0.0",
-  "observedAt": "2026-08-12T06:11:44Z",
+  "observedAt": "2026-08-12T06:24:13Z",
   "source": {
     "repository": "aarusso-nyx/devai",
     "tag": "v1.0.0",
     "tagStatus": "not-created-or-pushed",
-    "commit": "a9a16befc26a62f70fdce3c6acaf25086cd9735c",
-    "tree": "e2f7de0aaa88f460c4efaa44b16077d3f1b176a0",
-    "exactMainLedgerRun": 31568790373,
+    "commit": "b024f311f45201b2b69130d80a00ba16bf6057af",
+    "tree": "b32706bd29c74cff11141fe5183e3121b68e4feb",
+    "exactMainLedgerRun": 31569663065,
+    "exactMainLedgerConclusion": "waiting-independent-environment-approval",
     "tagWorkflowRun": null,
     "publicationJobs": "not-run"
   },
