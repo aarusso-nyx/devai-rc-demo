@@ -6,9 +6,9 @@ rc.5; the same repository was rebound for rc.6 and has now been upgraded to the 
 candidate on merged `main`.
 
 - Source tag: `v1.0.0` (signed local rehearsal only; not pushed)
-- Source commit: `6e9f0cfacf93b085b3a51c6383f0bb0cf73ba29e`
-- Source tree: `a7974b8b8ffa6c5e0c8d0eb46a11595b0f12c90b`
-- Exact-main ledger run: `31566649563`
+- Source commit: `c63698e7fd5f01c48fca28893f36ac6c73b7c80c`
+- Source tree: `20d13995bf1bd469ab761893f894ccc534a24165`
+- Exact-main ledger run: `31567312426`
 - Package SHA-256: `6634e5151873abb0e617fa303c9a4476f856b5754b02a7cb6bbc97911334c0f3`
 
 The package was installed with `npm install --no-save <tarball>`. The committed `evidence/`

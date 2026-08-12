@@ -5,9 +5,9 @@
     "repository": "aarusso-nyx/devai",
     "tag": "v1.0.0",
     "tagStatus": "signed-local-rehearsal-only-not-pushed",
-    "commit": "6e9f0cfacf93b085b3a51c6383f0bb0cf73ba29e",
-    "tree": "a7974b8b8ffa6c5e0c8d0eb46a11595b0f12c90b",
-    "exactMainLedgerRun": 31566649563,
+    "commit": "c63698e7fd5f01c48fca28893f36ac6c73b7c80c",
+    "tree": "20d13995bf1bd469ab761893f894ccc534a24165",
+    "exactMainLedgerRun": 31567312426,
     "tagWorkflowRun": null,
     "publicationJobs": "not-run"
   },
