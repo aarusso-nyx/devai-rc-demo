@@ -5,10 +5,11 @@ assembled by DEVAI's non-publishing release rehearsals. The original fresh-repos
 rc.5; the same repository was rebound for rc.6 and has now been upgraded to the exact stable 1.0
 candidate on merged `main`.
 
-- Source tag: `v1.0.0` (not created or pushed)
+- Source tag: `v1.0.0` (signed annotated tag, pushed and protected)
 - Source commit: `e6d92f41a0e43125c5d336145cdcfab92494a308`
 - Source tree: `5b1315361edeadc106bd551f8e488060311f0e8e`
-- Exact-main ledger run: `31570624288` (awaiting independent environment approval)
+- Exact-main ledger run: `31570624288` (pass)
+- Nonpublishing tag rehearsal: `31613987067` attempt 2 (pass)
 - Package SHA-256: `b1662a1ca0b25e49a41333b057874221b936108c8d89fbb48740e35f3a1f9410`
 
 The package was installed with `npm install --no-save <tarball>`. The committed `evidence/`
@@ -16,9 +17,10 @@ directory contains structured results for the fresh rc.5 adoption, the rc.6 rebi
 1.0 prepublication upgrade. Generated DEVAI bindings and both Codex and Claude recipe installations
 are committed as observable adopter state.
 
-The stable package is not yet published. Reproduction currently requires the locally assembled
-tarball whose digest is recorded in `evidence/installed-package-v1.0.0-e2e.json`. The remote
-non-publishing tag workflow remains pending until the signed `v1.0.0` tag is authorized and pushed.
+The stable package is not yet published. The signed tag workflow produced and verified the
+canonical release-candidate assets without running the Release, registry publication, or Pages
+deployment jobs. Reproduction remains bound to the package digest in
+`evidence/installed-package-v1.0.0-e2e.json`.
 
 ## Result
 
@@ -33,5 +35,5 @@ and it also reports the fixture's existing host-authority declaration mismatch.
 
 The unchanged exact stable tarball was reinstalled and the bind/apply/check/doctor walkthrough was
 re-run against the final merged source identity above. It also independently passed the
-installed-binary smoke from an empty Git repository. Remote tag-workflow rehearsal and every
-publishing/deployment job remain unrun.
+installed-binary smoke from an empty Git repository. The remote tag-workflow rehearsal is green;
+every publishing/deployment job remains unrun.

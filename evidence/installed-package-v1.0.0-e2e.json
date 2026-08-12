@@ -4,12 +4,14 @@
   "source": {
     "repository": "aarusso-nyx/devai",
     "tag": "v1.0.0",
-    "tagStatus": "not-created-or-pushed",
+    "tagStatus": "signed-annotated-pushed-protected",
     "commit": "e6d92f41a0e43125c5d336145cdcfab92494a308",
     "tree": "5b1315361edeadc106bd551f8e488060311f0e8e",
     "exactMainLedgerRun": 31570624288,
-    "exactMainLedgerConclusion": "waiting-independent-environment-approval",
-    "tagWorkflowRun": null,
+    "exactMainLedgerConclusion": "pass",
+    "tagWorkflowRun": 31613987067,
+    "tagWorkflowAttempt": 2,
+    "tagWorkflowConclusion": "pass",
     "publicationJobs": "not-run"
   },
   "package": {
@@ -91,6 +93,18 @@
       "verdict": "review",
       "transport": "valid-success-envelope"
     }
+  },
+  "nonPublishingRehearsal": {
+    "artifactId": 9148527552,
+    "packageSha256": "b1662a1ca0b25e49a41333b057874221b936108c8d89fbb48740e35f3a1f9410",
+    "sbomSha256": "a494fec235effa68daa0a34c431346036faf3dd21a16ca32ac1cbce61077293b",
+    "siteSha256": "79d3c2539bf65002565be41a5f89bd9bd66dee0af534ffcdf2dbca8544543798",
+    "releaseManifestSha256": "a8fd50a01dc30b78e1c6e1d309ea5640a80a0cfe1197794a62cad6e5521fc8ec",
+    "sha256SumsVerified": true,
+    "sbomComponents": 66,
+    "privateWorkspacePackages": 0,
+    "releaseJob": "skipped",
+    "pagesDeploymentJob": "skipped"
   },
   "verdict": "pass"
 }
